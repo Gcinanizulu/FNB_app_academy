@@ -1,0 +1,12 @@
+full_name = input("Full Name: ")
+surname = input("Surname: ")
+age = int(input("Age: "))
+fav_number = float(input("Favorite number: "))
+
+print(f"Welcome, {full_name} {surname}")
+print(f"{full_name.upper()} {surname.upper()}")
+print(f"{full_name.title()} {surname.title()}")
+print(f"your age in months: {str(age*12)}")
+print(round(fav_number, 2))
+print(f"name type: {str(type(full_name))}\nsurname type: {str(type(surname))}")
+print(f"age type: {type(age)}\nfavorite number type: {type(fav_number)}")
