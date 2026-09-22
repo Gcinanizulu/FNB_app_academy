@@ -8,6 +8,8 @@ def main():
         "\n3 to delete a contact" \
         "\n4 to view available contacts\n" \
         "5 to exit")
+        name1 = "Computer"
+        print(name1.capitalize())
         action = int(input())
         if action == 1:
             add_contact()
@@ -24,7 +26,8 @@ def main():
             break
         else:
             print("Invalid number choose between 1 and 5")
-
+    else:
+        print("Out")
 
 def add_contact():
     name = input("Name: ")
